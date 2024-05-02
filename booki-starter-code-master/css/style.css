@@ -49,12 +49,12 @@ body {
 .header-item {
     font-size: 16px;
     padding-top: 16px;
+    border-top: solid 2px transparent;
 }
 
 .header-item:hover {
     color: var(--main-color);
     border-top: solid 2px var(--main-color);
-    margin-top: -2px;
 }
 
 /* Hero */
@@ -461,13 +461,13 @@ a {
 
     .header-item {
         padding: 0 30px 17px 30px;
+        border-bottom: solid 2px transparent;
     }
 
     .header-item:hover {
         border-top: none;
         border-bottom: solid 2px var(--main-color);
         color: var(--main-color);
-        margin-bottom: -2px;
     }
 
     .hero-container {
