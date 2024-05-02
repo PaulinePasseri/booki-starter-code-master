@@ -262,6 +262,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     margin-top: 30px;
+    width: 100%;
 }
 
 /****** Populaires ***********/
@@ -569,4 +570,12 @@ a {
         flex-direction: column;
     }
 
+}
+
+
+/* Block size doesn't change when moving to smaller screens */
+@media (min-width:1024px) and (max-width:1220px) {
+    .hebergements-cards .card {
+        min-height:260px;
+    }
 }
